@@ -201,8 +201,13 @@ body {
 }   
 
 .sub_main {
-    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     padding-bottom: 150px;
+    background-image: linear-gradient(to bottom right, #ffffff, #47A9FD);;
+    width: 100%;
+    background-size: cover;
 }
 
 /*btn*/
@@ -288,7 +293,7 @@ body {
 }
 
 .s3_p_title {
-    font-size: 28px;
+    font-size: 34px;
 }
 
 .intro_title {
@@ -331,7 +336,6 @@ body {
 }
 
 .lichilnik_img {
-    background-image:url('/images/lichilnik2.png');
     width: 445.28px;
     height: 566.12px;
     position: absolute;
@@ -340,7 +344,6 @@ body {
 }
 
 .apk_img {
-    background-image:url('/images/ruka.png');
     width: 1000px;
     height: 800px;
     position: absolute;
@@ -375,14 +378,18 @@ body {
     }
 
     .main {
-        padding: 60px;
+        padding: 90px;
     }
 
     .container {
         padding-top: 50px;
-        height: 450px;
+        height: 400px;
         display: flex;
         justify-content: space-between;
+    }
+
+    .intro_inner {
+        max-width: 450px;
     }
 
     .intro_title {
@@ -390,8 +397,8 @@ body {
         line-height: 1.2;
         color: #000000;
         margin: 0 auto;
-        padding-top: 65px;
-        padding-bottom: 60px;
+        padding-top: 35px;
+        padding-bottom: 30px;
     }
     
     .intro_par {
@@ -432,10 +439,146 @@ body {
     }
 
     .s3_p_title {
-        font-size: 15px;
+        font-size: 24px;
+    }
+
+    .lichilnik_img {
+        width: 400px;
+        height: 450px;
+        position: absolute;
+        left: 10%;
+        margin: 45px;
+    }
+    
+    .apk_img {
+        width: 800px;
+        height: 650px;
+        position: absolute;
+        right: 0;
+    }
+
+    .sub_main {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 0;
+        background-image: linear-gradient(to bottom right, #ffffff, #47A9FD);;
+        width: 100%;
+        background-size: cover;
     }
 }
 
+@media screen and (max-width: 1051px) {
+    body {
+        font-size: 18px;
+    }
+
+    .logo_text_link {
+        font-size: 20px;
+    }
+    
+    .nav {
+        font-size: 10px;
+        text-transform: uppercase;
+        font-weight: 700;
+        padding-bottom: 20px;
+    }
+
+    .main_title {
+        font-size: 25px;
+    }
+
+    .main {
+        padding: 70px;
+    }
+
+    .container {
+        padding-top: 50px;
+        height: 350px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .intro_inner {
+        max-width: 350px;
+    }
+
+    .intro_title {
+        font-size: 25px;
+        line-height: 1.2;
+        color: #000000;
+        margin: 0 auto;
+        padding-top: 35px;
+        padding-bottom: 30px;
+    }
+    
+    .intro_par {
+        font-size: 18px;
+        font-weight: 700;
+        margin: 0 auto;
+        padding-bottom: 45px;
+    }
+
+    .intro_img {
+        width: 320px;
+        height: 330px;
+        position: absolute;
+        right: 10%;
+        padding: 10px;
+    }
+    
+    .mid_inner_container_title {
+        text-align: left;
+        font-size: 12px;
+        font-weight: 800; 
+        margin: 0;
+        display: flex;
+    }
+    
+    .mid_inner_container_subtitle{
+        text-align: left;
+        font-size: 12px;
+        font-weight: 500;
+        margin: 0;
+    } 
+
+    .main_title {
+        font-size: 22px;
+        font-weight: 700; 
+        font-family: "Jura", sans-serif;
+        margin: 0;
+    }
+
+    .s3_p_title {
+        font-size: 18px;
+    }
+
+    .lichilnik_img {
+        width: 320px;
+        height: 350px;
+        position: absolute;
+        left: 10%;
+        margin: 45px;
+    }
+    
+    .apk_img {
+        width: 600px;
+        height: 450px;
+        right: 0;
+    }
+
+    .sub_main {
+        padding-top: 25px;
+        padding-bottom: 0;
+        width: 100%;
+    }
+
+    .container_bottom {
+        height: 450px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
 /* 
 .slider {
     width: 570px;
