@@ -368,7 +368,7 @@ body {
     font-family: "Jura", sans-serif;
 }
 
-@media screen and (max-width: 1301px) {
+@media screen and (max-width: 1351px) {
     body {
         font-size: 24px;
     }
@@ -416,6 +416,10 @@ body {
         padding: 10px;
     }
     
+    .mid_inner_container {
+        padding-top: 38px;
+    }
+
     .mid_inner_container_title {
         text-align: left;
         font-size: 16px;
@@ -479,8 +483,6 @@ body {
     
     .nav {
         font-size: 10px;
-        text-transform: uppercase;
-        font-weight: 700;
         padding-bottom: 20px;
     }
 
@@ -495,8 +497,6 @@ body {
     .container {
         padding-top: 50px;
         height: 350px;
-        display: flex;
-        justify-content: space-between;
     }
 
     .intro_inner {
@@ -505,47 +505,39 @@ body {
 
     .intro_title {
         font-size: 25px;
-        line-height: 1.2;
-        color: #000000;
-        margin: 0 auto;
         padding-top: 35px;
         padding-bottom: 30px;
     }
     
     .intro_par {
         font-size: 18px;
-        font-weight: 700;
-        margin: 0 auto;
         padding-bottom: 45px;
     }
 
     .intro_img {
         width: 320px;
         height: 330px;
-        position: absolute;
-        right: 10%;
+        right: 8%;
         padding: 10px;
     }
     
+    .mid_inner_container {
+        padding-top: 30px;
+    }
+
     .mid_inner_container_title {
-        text-align: left;
+
         font-size: 12px;
-        font-weight: 800; 
         margin: 0;
-        display: flex;
     }
     
     .mid_inner_container_subtitle{
-        text-align: left;
         font-size: 12px;
-        font-weight: 500;
         margin: 0;
     } 
 
     .main_title {
         font-size: 22px;
-        font-weight: 700; 
-        font-family: "Jura", sans-serif;
         margin: 0;
     }
 
@@ -556,8 +548,7 @@ body {
     .lichilnik_img {
         width: 320px;
         height: 350px;
-        position: absolute;
-        left: 10%;
+        left: 8%;
         margin: 45px;
     }
     
@@ -575,9 +566,133 @@ body {
 
     .container_bottom {
         height: 450px;
-        display: flex;
-        justify-content: space-between;
     }
+}
+
+@media screen and (max-width: 501px) {
+    body {
+        font-size: 9px;
+    }
+
+    .logo_text_link {
+        font-size: 20px;
+    }
+    
+    .nav {
+        font-size: 10px;
+        padding-bottom: 20px;
+    }
+
+    .main_title {
+        font-size: 15px;
+    }
+
+    .main {
+        padding: 15px;
+        width: 100%;
+        background-size: auto;
+    }
+
+    .container {
+        display: flex;            
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding-top: 100px;
+        height: 600px;
+        width: 360px;
+    }
+    
+    .subinner_title {
+        margin: 3px;
+    }
+    .intro_inner {
+        width: 100%;  
+        margin: auto;
+        margin: 0 auto;
+        display: flex;
+        justify-content: flex-start;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        max-width: 400px;
+        position: static;
+        left: 8%;
+    }
+
+    .intro_img {
+        width: 360px;
+        height: 385px;
+        position: absolute;
+        right: 10%;
+        padding: 10px;
+    }
+
+    .intro_title {
+        font-size: 15px;
+        padding-top: 13px;
+        padding-bottom: 10px;
+    }
+    
+    .mid_left {
+        padding-top: 8px;
+        padding-right: 19px;
+        padding-left: 10px;
+    }
+
+    .sml_pig {
+        width: 30px;
+        height: 30px;
+        padding: 8px 0;
+    }
+
+    .intro_par {
+        font-size: 12px;
+        padding-bottom: 15px;
+    }
+    
+    .mid_inner_container {
+        padding-top: 15px;
+    }
+
+    .mid_inner_container_title {
+        font-size: 8px;
+        margin: 0;
+    }
+    
+    .mid_inner_container_subtitle{
+        font-size: 8px;
+        margin: 0;
+    } 
+
+    .main_title {
+        font-size: 12px;
+        margin: 0;
+    }
+
+    .s3_p_title {
+        font-size: 10px;
+    }
+
+    .lichilnik_img {
+        width: 0;
+        height: 0;
+        left: 0;
+        margin: 0;
+    }
+    
+    .apk_img {
+        width: 600px;
+        height: 450px;
+        right: 0;
+    }
+
+    .sub_main {
+        padding-top: 25px;
+        padding-bottom: 0;
+        width: 100%;
+    }
+
 }
 /* 
 .slider {
